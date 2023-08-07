@@ -11,7 +11,7 @@ const sequelize = process.env.JAWSDB_URL
         decimalNumbers: true,
       },
     });
-
+//assure database connection was successful
     sequelize
   .authenticate()
   .then(() => {
